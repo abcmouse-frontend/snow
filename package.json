@@ -1,0 +1,41 @@
+{
+  "name": "snow",
+  "version": "0.0.1",
+  "description": "snow",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup --config rollup.config.js --watch",
+    "build:uncompress": "rollup --config rollup.config.js",
+    "build:uglify": "cross-env NODE_ENV=production rollup --config rollup.config.js",
+    "build": "npm run build:uncompress && npm run build:uglify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/abcmouse-frontend/snow.git"
+  },
+  "keywords": [
+    "snow"
+  ],
+  "files": [
+    "dist",
+    "src",
+    "test",
+    "CHANGELOG.md",
+    "package.json"
+  ],
+  "author": "alawnxu",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "minimist": "^1.2.0",
+    "rollup": "^1.20.2",
+    "rollup-plugin-filesize": "^6.2.1",
+    "rollup-plugin-license": "^0.13.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "rollup-plugin-uglify": "^6.0.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.3"
+  }
+}

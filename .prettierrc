@@ -1,0 +1,21 @@
+{
+    "singleQuote": false,
+    "printWidth": 140,
+    "bracketSpacing": true,
+    "useTabs": false,
+    "tabWidth": 4,
+    "jsxBracketSameLine": false,
+    "overrides": [{
+        "files": "*.ts",
+        "options": {
+           "singleQuote": true,
+           "tabWidth": 4
+        }
+    },{
+        "files": "*.js",
+        "options": {
+           "singleQuote": true,
+           "tabWidth": 2
+        }
+    }]
+}
