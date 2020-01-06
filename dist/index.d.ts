@@ -1,2 +1,2 @@
-export declare class Snow {
-}
+import { Snow } from './snow/Snow';
+export default Snow;
