@@ -1,6 +1,4 @@
-# snow
-
-## canvas下雪效果
+# snow(canvas下雪效果)
 
 ### 参数列表
 ```typescript
