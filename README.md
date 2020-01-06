@@ -86,3 +86,10 @@ image.src = './snowflake.png';
 如指定雪花图片.最终生成的效果图如下:
 
 ![示例](./images/snow-2.png)
+
+### 方法列表
+|方法名称|方法说明|
+|-|-|
+|startAnimation()|开始动画|
+|stopAnimation()|停止动画|
+|destroy()|销毁|
